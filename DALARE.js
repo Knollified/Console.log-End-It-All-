@@ -68,6 +68,6 @@ let Discord = function () {
 };
 
 let GameLink = 'https://knollified.github.io/The-Krypt/';
-let gameLink = function () {
+let game = function () {
     document.querySelector(".Game").innerHTML = "<a href=" + GameLink +"><p>Enter?!</p></a>";
 };
