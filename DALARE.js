@@ -60,3 +60,9 @@ let roast = function () {
     document.querySelector(".Roast").innerHTML = Roast;
 
 };
+
+
+let discord = "https://discord.gg/Yzrbzdu";
+let Discord = function () {
+    document.querySelector(".Discord").innerHTML = "<a href=" + discord +"><p>Console.log('End It All');</p></a>";
+};
