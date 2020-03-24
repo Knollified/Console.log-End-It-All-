@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joke Page</title>
+</head>
+<body>
+    <h1>Joke Page</h1>
+    <h2>Movie Info</h2>
+    <dl>
+        <dt>Poster</dt>
+        <dd>
+            <img id="poster" src alt="">
+        </dd>
+
+        <dt>Title</dt>
+        <dd id="title"></dd>
+
+        <dt>Year</dt>
+        <dd id="year"></dd>
+
+        <dt>Rating</dt>
+        <dd id="rating"></dd>
+        <form>
+            <input type="text" placeholder="Movie Title">
+            <input type="submit" value="Get Info">
+        </form>
+    </dl>
+    <hr>
+    <h2>SAY MY NAME RIGHT GOD DAMMIT!</h2>
+    <div>
+        <p class="Dcounter"></p>
+        <p class="Acounter"></p>
+        <button type="submit" onclick="Acount()">ALAY + 1</button>
+        <button type="submit" onclick="Adecount()">ALAY - 1</button>
+        <button type="submit" onclick="Dcount()">DALARE + 1</button>
+        <button type="submit" onclick="Ddecount()">DALARE - 1</button>
+    </div>
+    <hr>
+    <h2>ROASTER 3000 beta 0.0.1</h2>
+    <div>
+        <p class="Roast"></p>
+        <button onclick="roast()">GET ROASTED</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./DALARE.js"></script>
+    <script src="./config.js"></script>
+</body>
+</html>
