@@ -66,3 +66,8 @@ let discord = "https://discord.gg/Yzrbzdu";
 let Discord = function () {
     document.querySelector(".Discord").innerHTML = "<a href=" + discord +"><p>Console.log('End It All');</p></a>";
 };
+
+let GameLink = 'https://knollified.github.io/The-Krypt/';
+let gameLink = function () {
+    document.querySelector(".Game").innerHTML = "<a href=" + GameLink +"><p>Enter?!</p></a>";
+};
