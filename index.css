@@ -7,3 +7,7 @@ html, body{
     justify-content: center;
     text-align: center;
 }
+.movies {
+    display: none;
+    visibility: hidden;
+}
