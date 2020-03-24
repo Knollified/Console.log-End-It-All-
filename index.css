@@ -8,8 +8,27 @@ html, body{
     text-align: center;
     color: #7fffd4;
     background-color: #000000;
+    font-size: 12pt;
 }
 .movies {
     display: none;
     visibility: hidden;
+}.Buttons {
+    background-color: #000000;
+}
+.Buttons> p {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    letter-spacing: 10px;
+    color: red;
+    margin: inherit;
+}
+h1, h2{
+    text-decoration: underline;
 }
