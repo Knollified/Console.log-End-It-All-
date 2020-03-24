@@ -6,6 +6,8 @@ html, body{
     padding: 10px;
     justify-content: center;
     text-align: center;
+    color: aquamarine;
+    background-color: black;
 }
 .movies {
     display: none;
